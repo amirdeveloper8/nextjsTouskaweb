@@ -1,0 +1,43 @@
+.sidebar {
+  position: fixed;
+  background-color: rgb(9, 56, 36);
+  height: 90vh;
+  width: 150px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a {
+  color: var(--white) !important;
+  text-align: center;
+  font-family: var(--ordibehesht);
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+  color: var(--purple) !important;
+  background-color: var(--white);
+  transform: scale(1.2);
+  box-shadow: 3px 3px 4px var(--purple);
+}
+
+.sidebar a:active {
+  color: var(--purple) !important;
+}
+
+.logout {
+  width: 90%;
+  margin-top: 2rem;
+  margin-left: 8px;
+  font-family: var(--ordibehesht);
+  font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 0;
+}
+
+.logout:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 3px 3px 4px rgba(255, 255, 255, 0.404);
+}

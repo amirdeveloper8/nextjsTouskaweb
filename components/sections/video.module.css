@@ -1,0 +1,50 @@
+.video {
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  direction: rtl;
+  padding: 2rem 1rem;
+}
+
+.style2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.video h2 {
+  text-align: center !important;
+}
+
+.subtitle {
+  color: black;
+  text-align: center !important;
+  margin: 2rem 0;
+}
+
+.style2 h2,
+.style2 .subtitle {
+  text-align: right !important;
+}
+
+.style2 .videoSec {
+  width: 50%;
+}
+
+.style2 .content {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .style2 {
+    flex-direction: column;
+  }
+  .style2 .videoSec {
+    width: 100%;
+  }
+
+  .style2 .content {
+    width: 100%;
+  }
+}
